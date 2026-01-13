@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jervey P. Calusin - Data Scientist & Freelancer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="scroll-progress" id="scrollProgress"></div>
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Jervey.</a>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#support" class="nav-highlight"><i class="fas fa-heart"></i> Support</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-left">
+                    <h1>Hi, I'm Jervey P. Calusin</h1>
+                    <h2>Data Scientist & Freelancer</h2>
+                    <p>Turning data into insights using machine learning and analytics.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-outline">Hire Me</a>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <div class="profile-image">
+                        <img src="images/YEV.jpg" alt="Jervey P. Calusin">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Services I Provide</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Data Analysis & Visualization</h3>
+                    <p>Transform raw data into actionable insights with interactive charts and dashboards.</p>
+                    <button class="btn-link" onclick="openModal('data-analysis')">Learn more <i class="fas fa-arrow-right"></i></button>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>Machine Learning Models</h3>
+                    <p>Build and deploy ML models for classification, regression, and clustering tasks.</p>
+                    <button class="btn-link" onclick="openModal('ml-models')">Learn more <i class="fas fa-arrow-right"></i></button>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Predictive Analytics</h3>
+                    <p>Forecast trends and outcomes using advanced statistical methods and algorithms.</p>
+                    <button class="btn-link" onclick="openModal('predictive-analytics')">Learn more <i class="fas fa-arrow-right"></i></button>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-globe"></i>
+                    <h3>Website Creation</h3>
+                    <p>Design and develop responsive websites with modern technologies.</p>
+                    <button class="btn-link" onclick="openModal('website-creation')">Learn more <i class="fas fa-arrow-right"></i></button>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-table"></i>
+                    <h3>Business Intelligence Dashboards</h3>
+                    <p>Create interactive dashboards for real-time data monitoring and reporting.</p>
+                    <button class="btn-link" onclick="openModal('bi-dashboards')">Learn more <i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work-with-me" class="work-with-me">
+        <div class="container">
+            <h2 class="section-title">Work With Me</h2>
+            <div class="social-cards">
+                <a href="https://www.instagram.com/yy3v._/" target="_blank" class="social-card">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+                <a href="https://github.com/Veyouu" target="_blank" class="social-card">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="mailto:yeverjcalusin@gmail.com" class="social-card">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                </a>
+                <a href="https://www.linkedin.com/in/jervey-calusin-0254a2268" target="_blank" class="social-card">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">Y-Safe</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Y-Safe</h3>
+                        <p>A secure and user-friendly web application designed to help users manage their safety and security needs with modern interface and real-time features.</p>
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://y-safe-v668.onrender.com/index.html" target="_blank" class="btn btn-sm">View Project</a>
+                            <a href="https://github.com/Veyouu/Y-Safe.git" target="_blank" class="btn btn-outline btn-sm">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">Austin Reaves Analysis</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Austin Reaves Data Analysis</h3>
+                        <p>Comprehensive statistical analysis and visualization of Austin Reaves' basketball performance data, uncovering key insights and trends.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>Visualization</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://veyouu.github.io/Austin-Reaves-Data-Analysis/" target="_blank" class="btn btn-sm">View Project</a>
+                            <a href="https://github.com/Veyouu/Austin-Reaves-Data-Analysis" target="_blank" class="btn btn-outline btn-sm">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">YearBook 2025</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>YearBook 2025</h3>
+                        <p>A digital yearbook project for 2025, featuring profiles and memories with an interactive and visually appealing design.</p>
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://veyouu.github.io/YearBook2025/" target="_blank" class="btn btn-sm">View Project</a>
+                            <a href="https://github.com/Veyouu/YearBook2025" target="_blank" class="btn btn-outline btn-sm">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-card">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>Bachelor of Science in Computer Science</h3>
+                <p class="university">Manuel S. Enverga University Foundation</p>
+                <p class="year">First Year Student</p>
+                <p class="description">Building strong foundations in programming and data science.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate data scientist and freelancer with a strong interest in turning complex data into meaningful insights. As a Computer Science student at Manuel S. Enverga University Foundation, I'm constantly expanding my knowledge in machine learning, statistical analysis, and web development.</p>
+                </div>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>5+</h3>
+                        <p>Projects</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>2+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>5+</h3>
+                        <p>Clients</p>
+                    </div>
+                </div>
+                <a href="images/Data Analyst Resume.pdf" class="btn btn-primary" download>Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="tools" class="tools">
+        <div class="container">
+            <h2 class="section-title">Tools & Technologies</h2>
+            <div class="tools-grid">
+                <div class="tool-item">
+                    <i class="fab fa-python"></i>
+                    <span>Python</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-database"></i>
+                    <span>SQL</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-chart-pie"></i>
+                    <span>Pandas</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 88%"></div>
+                    </div>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-calculator"></i>
+                    <span>NumPy</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-robot"></i>
+                    <span>Scikit-learn</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 82%"></div>
+                    </div>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-network-wired"></i>
+                    <span>TensorFlow</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-chart-area"></i>
+                    <span>Power BI</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="tool-item">
+                    <i class="fas fa-tablet-alt"></i>
+                    <span>Tableau</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 78%"></div>
+                    </div>
+                </div>
+                <div class="tool-item">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 88%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p>Interested in working together? Feel free to reach out!</p>
+                <a href="mailto:yeverjcalusin@gmail.com" class="btn btn-primary">
+                    <i class="fas fa-envelope"></i> Contact Me
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="support" class="support">
+        <div class="container">
+            <h2 class="section-title">Support My Work</h2>
+            <div class="support-content">
+                <p class="support-description">If you find my projects helpful and want to support my work in data science and web development, any donation is greatly appreciated. Your support helps me continue learning, creating, and sharing valuable projects with the community.</p>
+                <div class="donation-options">
+                    <div class="donation-card">
+                        <i class="fas fa-coffee"></i>
+                        <h3>Buy Me a Coffee</h3>
+                        <p>Small token of appreciation</p>
+                        <span class="donation-amount">₱50</span>
+                        <a href="#" onclick="openQRModal('GCash-50Pesos.jpg', 'GCash - ₱50')" class="btn btn-primary">View QR</a>
+                    </div>
+                    <div class="donation-card">
+                        <i class="fas fa-gift"></i>
+                        <h3>Support Creator</h3>
+                        <p>Support ongoing development</p>
+                        <span class="donation-amount">₱500</span>
+                        <a href="#" onclick="openQRModal('GCash-500Pesos.jpg', 'GCash - ₱500')" class="btn btn-primary">View QR</a>
+                    </div>
+                    <div class="donation-card">
+                        <i class="fas fa-star"></i>
+                        <h3>Premium Support</h3>
+                        <p>Premium project support</p>
+                        <span class="donation-amount">₱1,000</span>
+                        <a href="#" onclick="openQRModal('GCash-1000Pesos.jpg', 'GCash - ₱1,000')" class="btn btn-primary">View QR</a>
+                    </div>
+                    <div class="donation-card">
+                        <i class="fas fa-heart"></i>
+                        <h3>Custom Amount</h3>
+                        <p>Any amount helps</p>
+                        <span class="donation-amount">Flexible</span>
+                        <div class="custom-amount-buttons">
+                            <a href="#" onclick="openQRModal('GCash-AnyAmount.jpg', 'GCash - Any Amount')" class="btn btn-primary btn-sm">
+                                <i class="fas fa-mobile-alt"></i> GCash
+                            </a>
+                            <a href="#" onclick="openQRModal('GoTyme-AnyAmount.jpg', 'GoTyme - Any Amount')" class="btn btn-primary btn-sm">
+                                <i class="fas fa-university"></i> GoTyme
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="payment-info">
+                    <h4><i class="fas fa-info-circle"></i> How to Donate</h4>
+                    <ol>
+                        <li>Click on your preferred amount or payment method</li>
+                        <li>Scan the QR code using your GCash or GoTyme app</li>
+                        <li>Enter the amount and complete the transaction</li>
+                        <li>Thank you for your support! 💚</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Modals -->
+    <div id="data-analysis-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal('data-analysis')">&times;</span>
+            <div class="modal-header">
+                <i class="fas fa-chart-bar"></i>
+                <h2>Data Analysis & Visualization</h2>
+            </div>
+            <div class="modal-body">
+                <h3>What I Offer</h3>
+                <ul>
+                    <li><strong>Data Cleaning:</strong> I clean, preprocess, and transform raw data to ensure accuracy and consistency</li>
+                    <li><strong>Exploratory Analysis:</strong> Deep dive into your data to uncover patterns, trends, and hidden insights</li>
+                    <li><strong>Interactive Dashboards:</strong> Build stunning visualizations using Power BI, Tableau, or custom web-based solutions</li>
+                    <li><strong>Statistical Analysis:</strong> Apply statistical methods to validate hypotheses and draw meaningful conclusions</li>
+                    <li><strong>Report Generation:</strong> Create comprehensive reports with actionable recommendations</li>
+                </ul>
+                <h3>Deliverables</h3>
+                <ul>
+                    <li>Interactive dashboards with real-time data updates</li>
+                    <li>Custom charts and visualizations tailored to your needs</li>
+                    <li>Detailed analysis reports with insights</li>
+                    <li>Data cleaning scripts and documentation</li>
+                </ul>
+                <h3>Tools I Use</h3>
+                <p>Python (Pandas, NumPy), SQL, Power BI, Tableau, Matplotlib, Seaborn, D3.js</p>
+                <a href="#contact" onclick="closeModal('data-analysis')" class="btn btn-primary">Get Started</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="ml-models-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal('ml-models')">&times;</span>
+            <div class="modal-header">
+                <i class="fas fa-brain"></i>
+                <h2>Machine Learning Models</h2>
+            </div>
+            <div class="modal-body">
+                <h3>What I Offer</h3>
+                <ul>
+                    <li><strong>Classification Models:</strong> Predict categorical outcomes using algorithms like Random Forest, SVM, and Neural Networks</li>
+                    <li><strong>Regression Analysis:</strong> Build models to predict continuous values with high accuracy</li>
+                    <li><strong>Clustering:</strong> Group similar data points together for customer segmentation, anomaly detection</li>
+                    <li><strong>Deep Learning:</strong> Create neural networks for complex pattern recognition and predictions</li>
+                    <li><strong>Model Deployment:</strong> Deploy ML models as APIs or integrate them into your applications</li>
+                </ul>
+                <h3>Deliverables</h3>
+                <ul>
+                    <li>Trained and optimized ML models</li>
+                    <li>Model evaluation reports with accuracy metrics</li>
+                    <li>API endpoints for model integration</li>
+                    <li>Documentation and code comments</li>
+                </ul>
+                <h3>Tools I Use</h3>
+                <p>Python, Scikit-learn, TensorFlow, PyTorch, Keras, XGBoost, Flask, FastAPI</p>
+                <a href="#contact" onclick="closeModal('ml-models')" class="btn btn-primary">Get Started</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="predictive-analytics-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal('predictive-analytics')">&times;</span>
+            <div class="modal-header">
+                <i class="fas fa-chart-line"></i>
+                <h2>Predictive Analytics</h2>
+            </div>
+            <div class="modal-body">
+                <h3>What I Offer</h3>
+                <ul>
+                    <li><strong>Trend Forecasting:</strong> Predict future trends based on historical data patterns</li>
+                    <li><strong>Sales Prediction:</strong> Forecast product sales to optimize inventory and marketing strategies</li>
+                    <li><strong>Customer Churn:</strong> Identify customers likely to leave and develop retention strategies</li>
+                    <li><strong>Time Series Analysis:</strong> Analyze time-dependent data for seasonality and patterns</li>
+                    <li><strong>Risk Assessment:</strong> Evaluate and predict potential risks in business operations</li>
+                </ul>
+                <h3>Deliverables</h3>
+                <ul>
+                    <li>Prediction models with accuracy metrics</li>
+                    <li>Forecast reports with confidence intervals</li>
+                    <li>Interactive prediction dashboards</li>
+                    <li>Strategic recommendations based on predictions</li>
+                </ul>
+                <h3>Tools I Use</h3>
+                <p>Python, Prophet, ARIMA, LSTM, Gradient Boosting, Statistical Analysis Tools</p>
+                <a href="#contact" onclick="closeModal('predictive-analytics')" class="btn btn-primary">Get Started</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="website-creation-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal('website-creation')">&times;</span>
+            <div class="modal-header">
+                <i class="fas fa-globe"></i>
+                <h2>Website Creation</h2>
+            </div>
+            <div class="modal-body">
+                <h3>What I Offer</h3>
+                <ul>
+                    <li><strong>Responsive Design:</strong> Create websites that look great on all devices - desktop, tablet, and mobile</li>
+                    <li><strong>Modern UI/UX:</strong> Design intuitive and visually appealing interfaces</li>
+                    <li><strong>Custom Development:</strong> Build websites from scratch tailored to your specific needs</li>
+                    <li><strong>Landing Pages:</strong> Create high-converting landing pages for marketing campaigns</li>
+                    <li><strong>Portfolio Websites:</strong> Personal or business portfolios to showcase your work</li>
+                </ul>
+                <h3>Deliverables</h3>
+                <ul>
+                    <li>Fully functional, responsive websites</li>
+                    <li>Clean, maintainable code</li>
+                    <li>SEO-optimized pages</li>
+                    <li>Fast-loading, optimized performance</li>
+                </ul>
+                <h3>Tools I Use</h3>
+                <p>HTML5, CSS3, JavaScript, React, Vue.js, Node.js, GitHub, Netlify, Vercel</p>
+                <a href="#contact" onclick="closeModal('website-creation')" class="btn btn-primary">Get Started</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="bi-dashboards-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal('bi-dashboards')">&times;</span>
+            <div class="modal-header">
+                <i class="fas fa-table"></i>
+                <h2>Business Intelligence Dashboards</h2>
+            </div>
+            <div class="modal-body">
+                <h3>What I Offer</h3>
+                <ul>
+                    <li><strong>Real-Time Monitoring:</strong> Track KPIs and metrics in real-time with live data updates</li>
+                    <li><strong>Interactive Reports:</strong> Create drill-down reports for detailed data exploration</li>
+                    <li><strong>Custom KPI Tracking:</strong> Design dashboards for your specific business metrics and goals</li>
+                    <li><strong>Data Integration:</strong> Connect multiple data sources into unified dashboards</li>
+                    <li><strong>Automated Reporting:</strong> Schedule and automate regular reports via email or Slack</li>
+                </ul>
+                <h3>Deliverables</h3>
+                <ul>
+                    <li>Interactive BI dashboards</li>
+                    <li>Automated data refresh schedules</li>
+                    <li>User access controls and permissions</li>
+                    <li>Dashboard documentation and training</li>
+                </ul>
+                <h3>Tools I Use</h3>
+                <p>Power BI, Tableau, Google Data Studio, Metabase, SQL, Python, Apache Superset</p>
+                <a href="#contact" onclick="closeModal('bi-dashboards')" class="btn btn-primary">Get Started</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- QR Code Modal -->
+    <div id="qr-modal" class="modal">
+        <div class="modal-content qr-modal-content">
+            <span class="close-modal" onclick="closeQRModal()">&times;</span>
+            <div class="qr-modal-header">
+                <i class="fas fa-qrcode"></i>
+                <h2 id="qr-title">Scan to Donate</h2>
+            </div>
+            <div class="qr-modal-body">
+                <div class="qr-image-container">
+                    <img id="qr-image" src="" alt="QR Code" />
+                </div>
+                <p class="qr-instructions">Open your GCash or GoTyme app, tap Scan QR, and point your camera at this code</p>
+                <div class="qr-download-buttons">
+                    <a id="qr-download-link" href="" download="donation-qr.jpg" class="btn btn-primary">
+                        <i class="fas fa-download"></i> Save QR Code
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <h3>Jervey P. Calusin</h3>
+                <p>yeverjcalusin@gmail.com</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/yy3v._/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/Veyouu" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/jervey-calusin-0254a2268" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <p class="copyright">&copy; 2026 Jervey P. Calusin. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
